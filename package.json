@@ -1,5 +1,5 @@
 {
-  "name": "forest",
+  "name": "tree-trav",
   "version": "1.0.0",
   "description": "A library to handle nested directory structures in Node.js using the EventEmitter API and recursion.",
   "main": "index.js",
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Awpatterson217/forest.git"
+    "url": "git+https://github.com/Awpatterson217/tree-trav.git"
   },
   "keywords": [
     "recursion",
     "recursive",
     "recursively",
     "tree",
-    "forest",
+    "tree-trav",
+    "trav",
     "node-tree",
     "navigate",
     "node",
@@ -33,7 +34,7 @@
   "author": "Adam W Patterson",
   "license": "(MIT OR Apache-2.0)",
   "bugs": {
-    "url": "https://github.com/Awpatterson217/forest/issues"
+    "url": "https://github.com/Awpatterson217/tree-trav/issues"
   },
-  "homepage": "https://github.com/Awpatterson217/forest#readme"
+  "homepage": "https://github.com/Awpatterson217/tree-trav#readme"
 }

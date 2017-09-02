@@ -1,10 +1,10 @@
 "use strict";
 
-const forest = require('../');
-const Tree   = require('../').Tree;
+const treeTrav = require('../');
+const Tree     = require('../').Tree;
 
 // WORKS
-//let myTree = new forest.Tree();
+//let myTree = new treeTrav.Tree();
 // WORKS
 let myTree = new Tree();
 
