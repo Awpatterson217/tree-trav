@@ -24,29 +24,27 @@ Tree() API Reference
 
 ```js
 const Tree = require('tree-trav').Tree;
+let myTree = new Tree();
 
-// Find all CSS and HTML files in a 
+let stylesheets = [];
+let jsFiles     = [];
+
+// Find all CSS and js files in a 
 // nested file structure
 myTree.getLeaves('example/root/', [
     '.css',
-    '.html'
+    '.js'
 ]);
 
 // Deal with files as they are found
-myTree.on('dirFound', directory =>{
-    console.log("directory: " + directory);
-});
+myTree.on('file', (file, dir, extension) =>{
 
-// Deal with files when the search is complete
-myTree.on('autumn', (errors, files, extensionsMatched) =>{
-    console.log("Files found: "           + files);
-    console.log("Number of Files found: " + files.length);
-    console.log("Extensions Matched: "    + extensionsMatched);
-    if(errors.length){
-        console.log("Number of errors: "  + errors.length);
-        console.log("Reasons for error: " + errors[0].msg);
-        console.log("Location of error: " + errors[0].path);
-    }
+    if(extension === '.js') 
+        jsFiles.push(file);
+
+    if(extension === '.css') 
+        stylesheets.push(file);
+
 });
 
 ```
