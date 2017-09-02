@@ -29,7 +29,7 @@ let myTree = new Tree();
 let stylesheets = [];
 let jsFiles     = [];
 
-// Find all CSS and js files in a 
+// Find all CSS and JS files in a 
 // nested file structure
 myTree.getLeaves('example/root/', [
     '.css',
