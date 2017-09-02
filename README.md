@@ -14,7 +14,7 @@ npm install tree-trav
 ```
 
 <br>
- <a href="https://github.com/Awpatterson217/tree-trav/blob/master/lib/tree-trav/README.md">
+ <a href="https://github.com/Awpatterson217/tree-trav/blob/master/lib/tree/README.md">
 Tree API Documentation
 </a>
 <br>
