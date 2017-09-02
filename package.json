@@ -1,0 +1,39 @@
+{
+  "name": "forest",
+  "version": "1.0.0",
+  "description": "A library to handle nested directory structures in Node.js using the EventEmitter API and recursion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awpatterson217/forest.git"
+  },
+  "keywords": [
+    "recursion",
+    "recursive",
+    "recursively",
+    "tree",
+    "forest",
+    "node-tree",
+    "navigate",
+    "node",
+    "nodes",
+    "file",
+    "files",
+    "system",
+    "folders",
+    "folder",
+    "directories",
+    "directory",
+    "nested",
+    "nest"
+  ],
+  "author": "Adam W Patterson",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/Awpatterson217/forest/issues"
+  },
+  "homepage": "https://github.com/Awpatterson217/forest#readme"
+}
