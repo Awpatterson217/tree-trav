@@ -38,13 +38,11 @@ myTree.getLeaves('example/root/', [
 
 // Deal with files as they are found
 myTree.on('file', (file, dir, extension) =>{
-
     if(extension === '.js') 
         jsFiles.push(file);
 
     if(extension === '.css') 
         stylesheets.push(file);
-
 });
 
 ```
