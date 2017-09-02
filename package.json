@@ -1,6 +1,6 @@
 {
   "name": "tree-trav",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to handle nested directory structures in Node.js using the EventEmitter API and recursion.",
   "main": "index.js",
   "scripts": {
