@@ -1,19 +1,20 @@
 "use strict";
 
+// WORKS
 const treeTrav = require('../');
 const Tree     = require('../').Tree;
 
 // WORKS
-//let myTree = new treeTrav.Tree();
+let myTree = new treeTrav.Tree();
 // WORKS
-let myTree = new Tree();
+//let myTree = new Tree();
 
 const Extensions = ['.js', '.css']; 
 const root       = 'testFolders';
 const ignorees   = ['C:/src/customshells'];
 
 // Works
-myTree.getBranch(root, ignorees);
+//myTree.getBranch(root, ignorees);
 //myTree.getLeaves(root, Extensions);
 
 //myTree.fertilize(int); // TODO?
