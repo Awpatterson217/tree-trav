@@ -1,7 +1,7 @@
 ### Instantiate Trees with the <code>new</code> keyword
 
 ```js
-const Tree = require('forest').Tree;
+const Tree = require('tree-trav').Tree;
 
 let myTree  = new Tree();
 ```
