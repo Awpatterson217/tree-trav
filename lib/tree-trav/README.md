@@ -29,7 +29,10 @@ Formats path with <a href="https://nodejs.org/api/fs.html#fs_fs_realpathsync_pat
 
 ```js
 // Optionally, pass an array of directories to ignore
-myTree.getBranch('example/root', ['example/dir/to/ignore']);
+myTree.getBranch('example/root/node', [
+    'example/directories',
+    'to/ignore'
+]);
 ``` 
 
 **Events:** 
@@ -74,7 +77,8 @@ myTree.getLeaves('example/root', ['.js', '.css'], ['example/dir/to/ignore']);
 // Fires each time getLeaves() matches an extension to a file
 myTree.on('file', (file, dir, extension) =>{
     
-    // Returns full path to file, its parent directory,
+    // Returns full path to file, 
+    // its parent directory,
     // and its extension as ".extension"
 
 });
